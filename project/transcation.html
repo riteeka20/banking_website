@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="shortcut icon" href="visa.png" type="image/x-icon">
+    <link rel="stylesheet" href="Linea_freebiesbug/linea_iconfont/styles.css">
+    <script src="https://kit.fontawesome.com/3ceaa58e1a.js" crossorigin="anonymous"></script>
+
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="transaction.css">
+    <title>Bank | Transaction</title>
+</head>
+
+<body>
+    <header>
+        <img src="visa.png" class="heading-img" alt="">
+        <h1 class="heading">Bank</h1>
+    </header>
+    <nav class="aside">
+        <ul>
+            <i class="icon-basic-home"></i>
+            <li><a href="index.html">Home</a> </li>
+            <li>|</li>
+            <i class="icon-basic-world"></i>
+            <li><a href="about.html"> About Us</a></li>
+            <li>|</li>
+            <i class="icon-basic-mail-multiple"></i>
+            <li><a href="#">Customer Care</a></li>
+
+        </ul>
+        <form action="home.html">
+            <button class="logout" value="Sumbit">Logout</button>
+        </form>
+    </nav>
+    <nav class="bottom">
+        <ul>
+            <li>Personal</li>
+            <li>Wealth</li>
+            <li>Business</li>
+            <li>Corporate</li>
+            <i class="icon-ecommerce-gift"></i>
+            <li>Deals & More</li>
+            <li>|</li>
+            <i class="icon-basic-info"></i>
+            <li>Help</li>
+        </ul>
+    </nav>
+    <section class="transTop">
+        <h1 class="heading-name"> </h1>
+        <h3 class="heading-acc"> </h3>
+        <div class="balance">
+            <h2>Available Balance : </h2>
+            <p class="balance__amount">0</p>
+            <p class="msg" style="color: red;"></p>
+        </div>
+        <div class="total-income clearfix">
+            <div class="total-income--text">Income</div>
+            <div class="right">
+                <div class="total-income--value">+ 0</div>
+            </div>
+        </div>
+
+        <div class="total-withdrawal clearfix">
+            <div class="total-withdrawal--text">Withdrawal</div>
+            <div class="right clearfix">
+                <div class="total-withdrawal--value">- 0</div>
+                <div class="total-withdrawal--percentage">0%</div>
+            </div>
+        </div>
+    </section>
+    <section class="inputContainer">
+        <div class="add">
+            <div class="add__container">
+                <select class="add__type">
+                    <option value="inc" selected>Deposit</option>
+                    <option value="drc">Withdraw</option>
+                </select>
+                <input type="text" class="add__description" placeholder="Add description">
+                <input type="number" class="add__value" placeholder="Value">
+                <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="income">
+                <h2 class="income__title">Income</h2>
+
+                <div class="income__list">
+                </div>
+            </div>
+            <div class="withdraw">
+                <h2 class="withdraw__title">Withdrawn</h2>
+
+                <div class="withdraw__list">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+
+
+            <div class="footer-section_links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <a href="#">
+                        <li>Fraud Resources Center</li>
+                    </a>
+                    <a href="#">
+                        <li>V Outreach</li>
+                    </a>
+                    <a href="#">
+                        <li>Locations</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                    <a href="#">
+                        <li>Financial Forms</li>
+                    </a>
+                    <a href="#">
+                        <li>Lost or Stolen Card</li>
+                    </a>
+                    <a href="#">
+                        <li>Careers</li>
+                    </a>
+
+                </ul>
+            </div>
+
+            <div class="footer-section_contact">
+                <h2>Contact us</h2> <br>
+                <form action="" method="POST">
+                    <input type="email" name="email" class="text contact-input"
+                        placeholder="Your email address..."><br><br>
+                    <textarea name="msg" class="text contact-input" placeholder="Your message... "></textarea><br><br>
+                    <button type="submit" class="btn-big contact-button">Send</button>
+                </form>
+            </div>
+            <div class="footer-section_about">
+                <img class="logo1" src="visa.png" alt="logo"><br>
+                <div class="contact">
+                    <br>
+                    <span class="fas fa-phone"><i> &nbsp; 123-456-789</i></span>
+                    <br>
+                    <span class="fas fa-envelope"><i> &nbsp; vbank.com</i></span>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-youtube-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="transaction.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="Linea_freebiesbug/linea_iconfont/styles.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/3ceaa58e1a.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="visa.png" type="image/x-icon">
+    <title>Bank | Home</title>
+</head>
+
+<body id="body">
+    <header>
+        <img src="visa.png" class="heading-img" alt="">
+        <h1 class="heading">Bank</h1>
+    </header>
+    <nav class="aside">
+        <ul>
+            <i class="icon-basic-home"></i>
+            <li><a href="index.html">Home</a> </li>
+            <li>|</li>
+            <i class="icon-basic-world"></i>
+            <li><a href="about.html"> About Us</a></li>
+            <li>|</li>
+            <i class="icon-basic-mail-multiple"></i>
+            <li><a href="#">Customer Care</a></li>
+
+        </ul>
+    </nav>
+    <nav class="bottom">
+        <ul>
+            <li>Personal</li>
+            <li>Wealth</li>
+            <li>Business</li>
+            <li>Corporate</li>
+            <i class="icon-ecommerce-gift"></i>
+            <li>Deals & More</li>
+            <li>|</li>
+            <i class="icon-basic-info"></i>
+            <li>Help</li>
+        </ul>
+    </nav>
+    <section class="section">
+        <div class="section-form">
+            <p class="section-heading">Login to Internet Banking</p>
+            <form onsubmit="return login()" autocomplete="off" action="transcation.html" target="_blank">
+                <p>UserId:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+                <input type="text" id="userId" placeholder="User Id"><br><br>
+                <p>Password: </p>
+                <input type="password" id="pswd" placeholder="Password"><br>
+                <span class="msg" style="color: red;font-size: 1.2rem;"></span><br>
+                <button value="submit">Login</button><br><br>
+
+            </form>
+        </div>
+
+    </section>
+    <section class="section-article">
+        <div class="loans">
+            <img src="loan.png" alt=""><br>
+            <h1>Loans</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In inventore libero adipisci exercitationem rem
+            vero recusandae eius sequi. Ab, soluta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+            nostrum quidem ducimus libero id consequuntur.
+        </div>
+        <div class="invest">
+            <img src="profits.png" alt=""><br>
+            <h1>Investments</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur vitae in dolore officia sapiente
+            quae facere. Vero, facilis rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolorum
+            deleniti minima ad nesciunt architecto!
+        </div>
+        <div class="mutualFunds">
+            <h1>News Updates</h1>
+            <marquee behavior="scroll" scrollamount='5' height='320px' direction="up" onmouseover="this.stop();"
+                onmouseout="this.start();">
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem consectetur adipisicinglielit. Sequi, quos.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Pariatur saepe earum velit poliro illo!</li>
+                <li>Provident tempora explicabo tlimpo fuga.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Repellat reiciendis nisi ex tenetur aperiam sunt.</li>
+                <li>Consectetur adipisicing elolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+
+            </marquee>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+
+
+            <div class="footer-section_links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <a href="#">
+                        <li>Fraud Resources Center</li>
+                    </a>
+                    <a href="#">
+                        <li>V Outreach</li>
+                    </a>
+                    <a href="#">
+                        <li>Locations</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                    <a href="#">
+                        <li>Financial Forms</li>
+                    </a>
+                    <a href="#">
+                        <li>Lost or Stolen Card</li>
+                    </a>
+                    <a href="#">
+                        <li>Careers</li>
+                    </a>
+
+                </ul>
+            </div>
+
+            <div class="footer-section_contact">
+                <h2>Contact us</h2> <br>
+                <form action="" method="POST">
+                    <input type="email" name="email" class="text contact-input"
+                        placeholder="Your email address..."><br><br>
+                    <textarea name="msg" class="text contact-input" placeholder="Your message... "></textarea><br><br>
+                    <button type="submit" class="btn-big contact-button">Send</button>
+                </form>
+            </div>
+            <div class="footer-section_about">
+                <img class="logo1" src="visa.png" alt="logo"><br>
+                <div class="contact">
+                    <br>
+                    <span class="fas fa-phone"><i> &nbsp; 123-456-789</i></span>
+                    <br>
+                    <span class="fas fa-envelope"><i> &nbsp; vbank.com</i></span>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-youtube-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

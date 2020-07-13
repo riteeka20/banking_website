@@ -1,0 +1,395 @@
+body {
+  padding: 1rem;
+  line-height: 1.7;
+  background-color: #f6f5f7;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Roboto";
+}
+
+header {
+  margin: 0rem 0rem 1rem 30rem;
+}
+
+.heading {
+  font-size: 3.2rem;
+  font-style: italic;
+  text-transform: uppercase;
+  display: inline;
+}
+.heading-img {
+  height: 4rem;
+  width: 4rem;
+}
+.heading-acc{
+  font-size: 2rem;
+  text-align: center;
+}
+.aside {
+  float: right;
+  font-size: 1.6rem;
+  margin: -5rem 38rem 1rem 2rem;
+}
+.aside ul {
+  list-style: none;
+  display: inline;
+}
+.aside ul li {
+  padding-right: 0.8rem;
+  display: inline;
+}
+.aside ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.bottom {
+  width: 99.8%;
+  padding: 0.6rem;
+  margin-top: -1.5rem;
+  color: white;
+  float: left;
+  text-align: center;
+  height: 2.5rem;
+  font-size: 1.6rem;
+  background-color: #1e7be4;
+}
+.bottom ul {
+  list-style: none;
+  margin-top: -0.1rem;
+}
+.bottom ul li {
+  padding: 0rem 3.8rem 0rem 1rem;
+  display: inline;
+}
+
+.transTop h1 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+.balance h2 {
+  font-size: 2rem;
+  position: relative;
+  top: 35%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+  display: inline;
+}
+.balance p {
+  display: inline;
+  font-size: 2.4rem;
+  position: relative;
+  top: 35%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+  margin-left: 1rem;
+}
+.total-withdrawal,
+.total-income {
+  padding: 1.2rem;
+  text-transform: uppercase;
+}
+
+.total-income {
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+  width: 30%;
+  color: white;
+  background-color: #1e7be4;
+  margin: 3rem 0 1rem 14rem;
+}
+
+.total-withdrawal {
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+  float: right;
+  color: white;
+  width: 30%;
+  background-color: #d11710;
+  margin: -6.8rem 16rem 1rem 0rem;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.total-income--text,
+.total-withdrawal--text {
+  float: left;
+  font-size: 1.7rem;
+  color: #fff;
+
+  margin-top: 0.2rem;
+}
+
+.total-income--value,
+.total-withdrawal--value {
+  letter-spacing: 0.1rem;
+  float: right;
+  font-size: 1.6rem;
+  margin-right: 4rem;
+}
+
+.total-withdrawal--percentage {
+  float: right;
+  width: 3.4rem;
+  padding: 0.3rem 0;
+  margin-right: -8.8rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-size: 1.4rem;
+  border-radius: 0.3rem;
+  color: white;
+}
+.add {
+  padding: 1.4rem;
+  border-bottom: 0.1rem solid #e7e7e7;
+  background-color: #f7f7f7;
+}
+
+.add__container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.add__type {
+  width: 10rem;
+  border: 0.1rem solid #e7e7e7;
+  border-radius: 0.3rem;
+  height: 4.4rem;
+  font-size: 1.6rem;
+  color: inherit;
+  background-color: #fff;
+  margin-right: 1rem;
+  font-weight: 300;
+  transition: border 0.3s;
+}
+.add__description,
+.add__value {
+  border: 0.1rem solid #e7e7e7;
+  background-color: #fff;
+  font-size: 1.4rem;
+  padding: 1.2rem 1.5rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  transition: border 0.3s;
+}
+
+.add__description {
+  width: 40rem;
+}
+.add__value {
+  width: 10rem;
+}
+
+.add__btn {
+  font-size: 3.5rem;
+  background: none;
+  border: none;
+  color: #1c9ed1;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.1;
+  margin-left: 1rem;
+}
+
+.add__btn:active {
+  transform: translateY(0.2rem);
+}
+
+.add__type:focus,
+.add__description:focus,
+.add__value:focus {
+  outline: none;
+  border: 1px solid #1c9ed1;
+}
+
+.add__btn:focus {
+  outline: none;
+}
+/*--------List-------*/
+
+.container {
+  width: 100rem;
+  margin: 6rem auto;
+}
+
+.income {
+  float: left;
+  width: 50rem;
+}
+
+.withdraw {
+  float: right;
+  width: 50rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.income__title {
+  margin-top: -4rem;
+  margin-left: 13rem;
+  color: #1088eb;
+}
+.withdraw__title {
+  color: #d11710;
+  margin-top: -4rem;
+  margin-left: 12rem;
+}
+
+.item {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  width: 40rem;
+  margin-left: -4rem;
+  border-bottom: 0.1rem solid #e7e7e7;
+}
+
+.item:first-child {
+  border-top: 0.1rem solid #000000;
+}
+.item:nth-child(even) {
+  background-color: #fff;
+}
+
+.item__description {
+  float: left;
+}
+.item_date {
+  color: #1e7be4;
+  margin-top: 3rem;
+  margin-left: 0rem;
+  font-size: 1.1rem;
+}
+.item__value {
+  float: right;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: -2rem;
+  transition: transform 0.3s;
+}
+
+.income .item__value {
+  color: #0797cf;
+}
+
+.withdraw .item__value {
+  color: #ff5049;
+}
+.item:hover {
+  display: block;
+}
+.item:hover .item__value {
+  transform: translateX(-2rem);
+}
+
+.footer {
+  margin-top: 30rem;
+  padding: -1rem;
+  background-color: #1e7be4;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5rem 8rem;
+  grid-gap: 3rem;
+}
+.footer-section {
+  font-size: 1.4rem;
+}
+.footer-section_links {
+  margin-left: 10rem;
+}
+.footer-section_links h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2.4rem;
+  margin-left: 4rem;
+}
+.footer-section_links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.footer-section_links a li {
+  list-style: none;
+  padding: 0.6rem;
+  transition: transfrom 0.2s ease-in-out;
+}
+.footer-section_links a li:hover {
+  transform: scale(1.08);
+}
+.footer-section_contact {
+  margin-left: 4rem;
+}
+.footer-section_contact h2 {
+  margin-bottom: 2.5rem;
+  font-size: 2.4rem;
+  margin-left: 1rem;
+}
+.footer-section_contact .text {
+  width: 60%;
+  padding: 0.8rem;
+  border: none;
+  margin: 1rem;
+  border-radius: 0.4rem;
+}
+.footer-section_contact .btn-big {
+  font-size: 1.6rem;
+  margin-right: 12rem;
+  float: right;
+  border-radius: 0.6rem;
+  border: none;
+  color: #fff;
+  background-color: rgb(82, 178, 241);
+  text-transform: capitalize;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+}
+.footer-section_about {
+  margin-left: 14rem;
+}
+.footer-section_about img {
+  height: 8rem;
+  width: 8rem;
+}
+.contact {
+  color: #fff;
+}
+.contact i {
+  font-size: 1.8rem;
+}
+
+.social {
+  margin-top: 1.5rem;
+}
+.social a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+  background: #fff;
+  color: #000000;
+  font-size: 2rem;
+  padding: 0.6rem 1.2rem;
+  border: 0.1rem none;
+  border-radius: 2rem;
+}
+.logout{
+  background-color: rgb(185, 13, 13);
+  color: white;
+  border: none;
+  padding: 1rem 1.2rem;
+  border-radius: .4rem;
+  margin: 0 -40rem 0 40rem;
+}
+nav form{
+  margin-top: -3.5rem;
+}
+.logout:focus{
+  outline: none;
+}
