@@ -147,8 +147,8 @@ header {
   box-shadow: 0rem 2.5rem 4rem rgba(0, 0, 0, 0.6);
   padding: 1rem 0 3rem 4rem;
   border: 1px solid #888;
-  width: 40%;
-  height: 74%;
+  width: 38%;
+  height: 80%;
 }
 .section_signup-content h1 {
   text-align: center;
@@ -156,40 +156,40 @@ header {
   margin-left: 0.8rem;
 }
 .section_signup-content .name input {
-  width: 27%;
+  width: 25%;
   margin: 0 2rem 2.5rem 0;
   padding: 1.2rem 1.5rem;
   border: 1px solid skyblue;
 }
 .section_signup-content .name #fn {
-  margin-left: 8rem;
+  margin-left: 7rem;
 }
 .section_signup-content #email {
-  margin-left: 6.6rem;
-  width: 62%;
+  margin-left: 5.6rem;
+  width: 58%;
 }
 .section_signup-content #accNo {
   margin-left: 3.5rem;
-  width: 62%;
+  width: 58%;
 }
 .section_signup-content #uid {
   margin-left: 3.7rem;
-  width: 62%;
+  width: 58%;
 }
 .section_signup-content #psw {
   margin-left: 4.7rem;
-  width: 62%;
+  width: 58%;
 }
 .section_signup-content #mob,
 .section_signup-content #dob {
-  width: 24%;
+  width: 20%;
   margin: 0 2rem 2.5rem 1rem;
   padding: 1.2rem 1.5rem;
   border: 1px solid skyblue;
 }
 .section_signup-content input {
   background-color: #f6f5f7;
-  width: 62%;
+  width: 58%;
   margin-bottom: 2.5rem;
   padding: 1.2rem 1.5rem;
   border: 1px solid skyblue;
@@ -208,13 +208,13 @@ header {
 }
 .section_signup-content #btn-sub {
   margin-left: 4rem;
-  width: 40%;
+  width: 36%;
   text-align: center;
   margin-top: 1rem;
 }
 .section_signup-content #btn-reset {
   margin-left: 1rem;
-  width: 40%;
+  width: 36%;
   background-color: #04a01e;
   text-align: center;
   margin-top: 1rem;
